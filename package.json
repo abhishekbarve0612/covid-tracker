@@ -1,0 +1,32 @@
+{
+  "name": "covid-tracker-server",
+  "version": "1.0.0",
+  "description": "covid tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "15.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekbarve0612/covid-tracker-server.git"
+  },
+  "author": "Abhishek Barve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekbarve0612/covid-tracker-server/issues"
+  },
+  "homepage": "https://github.com/abhishekbarve0612/covid-tracker-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.3"
+  }
+}
